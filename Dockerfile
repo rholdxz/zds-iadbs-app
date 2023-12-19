@@ -1,5 +1,5 @@
 #Python <version> - Alpine <version>
-FROM python:3.12.1-alpine3.19
+FROM python:3.13-rc-alpine3.19
 LABEL maintainer="rholdxz.github.io"
 
 ENV PYTHONUNBUFFERED 1
