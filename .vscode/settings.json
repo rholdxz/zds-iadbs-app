@@ -1,6 +1,8 @@
 {
     "cSpell.words": [
-        "DOCKERHUB"
+        "DOCKERHUB",
+        "IADB",
+        "jazzmin"
     ],
     "python.analysis.typeCheckingMode": "off",
     "python.analysis.autoImportCompletions": true
