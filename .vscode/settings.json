@@ -3,6 +3,7 @@
         "DOCKERHUB",
         "IADB",
         "jazzmin",
+        "Psycopg",
         "Rholdxz"
     ],
     "python.analysis.typeCheckingMode": "off",
