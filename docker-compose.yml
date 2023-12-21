@@ -14,9 +14,9 @@ services:
       sh -c "python manage.py runserver 0.0.0.0:8000"
     environment:
       - DB_HOST=db
-      - DB_NAME=zdsiadbs_db
-      - DB_USER=rholdxz@gmail.com
-      - DB_PASS=#Roldan09219872934
+      - DB_NAME=devdb
+      - DB_USER=devuser
+      - DB_PASS=changeme
     depends_on:
       - db
 
@@ -25,9 +25,9 @@ services:
     volumes:
       - dev-db-data:/var/lib/postgresql/data
     environment:
-      - POSTGRES_DB=zdsiadbs_db
-      - POSTGRES_USER=rholdxz@gmail.com
-      - POSTGRES_PASSWORD=#Roldan09219872934
+      - POSTGRES_DB=devdb
+      - POSTGRES_USER=devuser
+      - POSTGRES_PASSWORD=changeme
 
   pgadmin:
     image: dpage/pgadmin4:snapshot
