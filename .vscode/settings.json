@@ -3,8 +3,10 @@
         "DOCKERHUB",
         "IADB",
         "jazzmin",
+        "middlename",
         "Psycopg",
-        "Rholdxz"
+        "Rholdxz",
+        "testpass"
     ],
     "python.analysis.typeCheckingMode": "off",
     "python.analysis.autoImportCompletions": true
