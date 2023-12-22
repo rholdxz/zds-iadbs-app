@@ -156,7 +156,7 @@ JAZZMIN_SETTINGS = {
     "site_logo": "image/brand.png",
 
     # Logo to use for your site, must be present in static files, used for login form logo (defaults to site_logo)
-    "login_logo": "image/favicon.png",
+    "login_logo": "image/favicon_login.png",
 
     # Logo to use for login form in dark themes (defaults to login_logo)
     "login_logo_dark": "image/favicon.png",
@@ -168,14 +168,15 @@ JAZZMIN_SETTINGS = {
     "site_icon": "image/favicon.png",
 
     # Welcome text on the login screen
-    "welcome_sign": "ZDS-IADBSys v1.00 [ADMINISTRATOR LOGIN]",
+
+    "welcome_sign": "Zamboanga del Sur Integrated Agri-Fishery Data Banking System [ADMINISTRATOR by PAGO-PMEISS]",
 
     # Copyright on the footer
-    "copyright": "RholdxzDev",
+    "copyright": "PAGO-Planning Monitoring Evaluation & Information System Services",
 
     # List of model admins to search from the search bar, search bar omitted if excluded
     # If you want to use a single search field you dont need to use a list, you can use a simple string
-    "search_model": ["auth.User", "auth.Group"],
+    # "search_model": ["auth.user"],
 
     # Field name on user model that contains avatar ImageField/URLField/Charfield or a callable that receives the user
     "user_avatar": None,
@@ -191,10 +192,10 @@ JAZZMIN_SETTINGS = {
         {"name": "Home",  "url": "admin:index", "permissions": ["auth.view_user"]},
 
         # external url that opens in a new window (Permissions can be added)
-        {"name": "Support", "url": "https://rholdxz.github.io", "new_window": True},
+        {"name": "Developer", "url": "https://rholdxz.github.io", "new_window": True},
 
         # model admin to link to (Permissions checked against model)
-        {"model": "auth.User"},
+        {"model": "auth.user"},
 
         # App with dropdown menu to all its models pages (Permissions checked against models)
         # {"app": "books"},
@@ -206,7 +207,7 @@ JAZZMIN_SETTINGS = {
 
     # Additional links to include in the user menu on the top right ("app" url type is not allowed)
     "usermenu_links": [
-        {"name": "Support", "url": "https://rholdxz.github.io", "new_window": True},
+        {"name": "Developer", "url": "https://rholdxz.github.io", "new_window": True},
         {"model": "auth.user"}
     ],
 
@@ -265,7 +266,7 @@ JAZZMIN_SETTINGS = {
     # Whether to link font from fonts.googleapis.com (use custom_css to supply font otherwise)
     "use_google_fonts_cdn": True,
     # Whether to show the UI customizer on the sidebar
-    "show_ui_builder": True,
+    "show_ui_builder": False,
 
     ###############
     # Change view #
@@ -281,4 +282,38 @@ JAZZMIN_SETTINGS = {
     "changeform_format_overrides": {"auth.user": "collapsible", "auth.group": "vertical_tabs"},
     # Add a language dropdown into the admin
     "language_chooser": False,
+}
+
+#THEME Settings
+
+JAZZMIN_UI_TWEAKS = {
+    "navbar_small_text": True,
+    "footer_small_text": True,
+    "body_small_text": False,
+    "brand_small_text": True,
+    "brand_colour": "navbar-gray",
+    "accent": "accent-lightblue",
+    "navbar": "navbar-dark",
+    "no_navbar_border": False,
+    "navbar_fixed": True,
+    "layout_boxed": False,
+    "footer_fixed": True,
+    "sidebar_fixed": False,
+    "sidebar": "sidebar-dark-maroon",
+    "sidebar_nav_small_text": True,
+    "sidebar_disable_expand": False,
+    "sidebar_nav_child_indent": False,
+    "sidebar_nav_compact_style": True,
+    "sidebar_nav_legacy_style": False,
+    "sidebar_nav_flat_style": True,
+    "theme": "sandstone",
+    "dark_mode_theme": "slate",
+    "button_classes": {
+        "primary": "btn-primary",
+        "secondary": "btn-secondary",
+        "info": "btn-info",
+        "warning": "btn-warning",
+        "danger": "btn-danger",
+        "success": "btn-success"
+    }
 }
