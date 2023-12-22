@@ -1,0 +1,173 @@
+[33mcommit d4a30e8f408a51257ac2a497b595ac930fbcac40[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Fri Dec 22 22:06:39 2023 +0800
+
+    Add superuser support.
+
+[33mcommit 9cfd8df3f1d163d08f2f420f961d0ae1c70b2023[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Fri Dec 22 21:12:30 2023 +0800
+
+    Email Testing.
+
+[33mcommit 7dc564424c83623489bc23e484f443a8c9038c55[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Fri Dec 22 19:50:20 2023 +0800
+
+    Create Model & Implemented.
+
+[33mcommit 39d899c9c34341b57563a8bed2a4f621f5ce1b6a[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Fri Dec 22 19:30:22 2023 +0800
+
+    Create Model & Implemented.
+
+[33mcommit 23e04e86b2ea0ba3a6bcc0fcb5764ca670f419bb[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Fri Dec 22 17:09:24 2023 +0800
+
+    Test Error!
+
+[33mcommit fbe868523c394999eb4d6ea3f6c0a85dd35f71ad[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Fri Dec 22 01:46:54 2023 +0800
+
+    Configured docker compose and checks to wait for db [migration leve]
+
+[33mcommit f2380ec76b491ecb80208873096d88e549c6df78[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Thu Dec 21 14:12:53 2023 +0800
+
+    Write tests for wait_for_db command.
+
+[33mcommit e9e440d0b36c3f1e7fd85de7aa598b26981c47e6[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Thu Dec 21 11:31:12 2023 +0800
+
+    Adding Static File for Icon & Images.
+
+[33mcommit 0bfb72f0969ba97eda85751fcb591133bec1c253[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Thu Dec 21 10:42:40 2023 +0800
+
+    Creating Core App.
+
+[33mcommit e75b1d15d80881ac225eb4e2b07538718fbad758[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Thu Dec 21 01:39:47 2023 +0800
+
+    Configure database in Django.
+
+[33mcommit e26a1fafc7ad4966153e16c8289647770a148b4b[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Thu Dec 21 01:26:39 2023 +0800
+
+    Install ProstgreSQL Database adaptop.
+
+[33mcommit cec7d49d59214b4289fee4212d8bff16c87a96ad[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Thu Dec 21 01:11:10 2023 +0800
+
+    Customizing Django Admin by Django-Jazzmin.
+
+[33mcommit a7c8b7b172df9bfb8850668000e05c8eddf07430[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Wed Dec 20 22:55:32 2023 +0800
+
+    Add pgAdmin Service.
+
+[33mcommit 97c13f115a040cbb828229838c193df6649bd807[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Wed Dec 20 22:21:30 2023 +0800
+
+    Add Database Services.
+
+[33mcommit c1f269c9c9bbfe0e34f4c6774097ce325d38b34c[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Wed Dec 20 16:32:13 2023 +0800
+
+    Test then Create or Implement.
+
+[33mcommit c339c1843a1643dca32f49d010de125b7a6cb3c7[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Wed Dec 20 16:21:55 2023 +0800
+
+    Creating a SimpleTest with no db relation.
+
+[33mcommit d7f0ddd6067fe9f82976c63f7fe0a6037e6b48af[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Wed Dec 20 13:23:13 2023 +0800
+
+    Update YML File to Github Action.
+
+[33mcommit 90824b88b62cb7f7db848695f415d93f98947c37[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Wed Dec 20 13:19:45 2023 +0800
+
+    Update YML File to Github Action.
+
+[33mcommit f0fb37ab971fa2c698f87d60556def3e120ee84b[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Wed Dec 20 13:10:34 2023 +0800
+
+    Checking the Dockerhub Credentials to Github Actions.
+
+[33mcommit ba45d3a26645bb21751d0a9c0d2b04cd409d8c11[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Wed Dec 20 13:07:09 2023 +0800
+
+    Checking the Dockerhub Credentials to Github Actions.
+
+[33mcommit 48ffcf42d78ff5286715ab16cd6200b1c5c161b2[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Wed Dec 20 12:57:37 2023 +0800
+
+    Create, Configure Dockerhub Credentials and Test Github Actions.
+
+[33mcommit c6f75226e93c705014ece290c584aad5bc9907c9[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Wed Dec 20 04:03:03 2023 +0800
+
+    ALLOWED_HOST in settings.py
+
+[33mcommit d9a25d93ec8c00267ac0f7d87012f9fbf24da9ba[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Tue Dec 19 16:10:06 2023 +0800
+
+    Create Django project.
+
+[33mcommit 41df5fa494fb1e4ad632b37b34b66200b445ee1f[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Tue Dec 19 16:05:50 2023 +0800
+
+    Updating Alpine Version for invulnerability.
+
+[33mcommit 3d1b2430d68918c09076f2117c3b60205089c9fe[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Tue Dec 19 15:51:58 2023 +0800
+
+    Configuring flake8.
+
+[33mcommit 407236013c131b6ca14f5ab97cf30770af7a430c[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Tue Dec 19 15:41:02 2023 +0800
+
+    Create Docker Compose configuration.
+
+[33mcommit fb4cb5002ff93f7b227d9eced55b32e7a1b7612e[m
+Author: rholdxz <rholdxz@gmail.com>
+Date:   Tue Dec 19 15:16:00 2023 +0800
+
+    Creating python requirements and project dockerfile.
+
+[33mcommit 8b831e2d3d11f6f2910219e7da1f8ab87b2f2801[m
+Author: @RholdzDev <rholdxz@gmail.com>
+Date:   Tue Dec 19 14:11:47 2023 +0800
+
+    Update README.md
+
+[33mcommit 3f35d94b47087f4256b6fce36a61b1282aa802d5[m
+Author: @RholdzDev <rholdxz@gmail.com>
+Date:   Tue Dec 19 14:10:56 2023 +0800
+
+    Initial commit
