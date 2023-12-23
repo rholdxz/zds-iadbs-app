@@ -21,7 +21,9 @@ class AdminSiteTests(TestCase):
         self.user = get_user_model().objects.create_user(
             email='user@example.com',
             password='testpass123',
-            firstname='Test Users',
+            firstname='Andrei Lucas',
+            lastname='Lobitaña',
+            middlename='Cajeta',
         )
 
     def test_users_lists(self):
@@ -30,4 +32,6 @@ class AdminSiteTests(TestCase):
         res = self.client.get(url)
 
         self.assertContains(res, self.user.firstname)
+        self.assertContains(res, self.user.lastname)
+        self.assertContains(res, self.user.middlename)
         self.assertContains(res, self.user.email)
