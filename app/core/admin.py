@@ -11,7 +11,7 @@ from core import models
 class UserAdmin(BaseUserAdmin):
     """Define the admin pages for users."""
     ordering = ['id']
-    list_display = ['email', 'lastname', 'firstname', 'middlename', 'last_login']
+    list_display = ['email', 'last_name', 'first_name', 'middle_name', 'extension_name', 'last_login']
 
 
 admin.site.register(models.User, UserAdmin)
