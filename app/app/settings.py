@@ -208,7 +208,7 @@ JAZZMIN_SETTINGS = {
     # Additional links to include in the user menu on the top right ("app" url type is not allowed)
     "usermenu_links": [
         {"name": "Developer", "url": "https://rholdxz.github.io", "new_window": True, "icon": "fas fa-link"},
-        # {"model": "auth.user"}
+        # {"model": "auth.user"} fa-share-from-square fa-link
     ],
 
     #############

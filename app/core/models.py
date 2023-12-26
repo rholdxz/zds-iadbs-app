@@ -2,6 +2,7 @@
 Database models.
 """
 from django.db import models
+from phonenumber_field.modelfields import PhoneNumberField
 from django.contrib.auth.models import (
     AbstractBaseUser,
     BaseUserManager,
@@ -39,9 +40,9 @@ class User(AbstractBaseUser, PermissionsMixin):
     middle_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
     extension_name = models.CharField(max_length=5)
-    contact = models.CharField(max_length=15)
-    is_active = models.BooleanField(default=True)
-    is_staff = models.BooleanField(default=False)
+    contact = PhoneNumberField(blank=True, max_length=15, region="PH", help_text='Enter a valid phone number (e.g. 09123456789 or +639123456789).', error_messages={"required": "Please enter a valid phone number (e.g. 09123456789 or +639123456789)."})
+    is_active = models.BooleanField(default=True, help_text='Designates whether this user should be treated as active. Unselect this instead of deleting accounts.')
+    is_staff = models.BooleanField(default=False, help_text='Designates whether the user can log into this admin site.')
 
     objects = UserManager()
 
